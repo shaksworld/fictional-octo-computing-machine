@@ -55,3 +55,53 @@
     height: 100%;
     margin-left: 40px;
 }
+
+/* CSS styles for the Some component */
+.some-main {
+    background-color: #f0f0f0;
+    /*padding: 20px;*/
+    border-radius: 5px;
+    align-items: flex-start;
+    padding: 24px;
+    font-family: Inter, serif;
+}
+
+.some-main h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.some-main p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* CSS styles for the Index component */
+.deposit-base {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.space-main-2 {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+.btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
