@@ -28,6 +28,14 @@ function SideBar() {
                         icon: <MoneyCollectOutlined />,
                         key: "/withdraw"
                     },
+                    {
+                        label: "Notification",
+                        key: "/notification"
+                    },
+                    {
+                        label: "Settings",
+                        key: "/settings"
+                    },
                 ]}
             />
         </div>
